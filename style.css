@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#two_columns {
+    background: #00BFFF;
+    margin-bottom: 10px;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.logo>img {
+    height: 26px;
+    vertical-align: middle;
+}
+
+.header {
+    background: grey;
+    color: white;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 4px 0;
+}
+
+ul {
+    display: flex;
+    margin-left: auto;
+}
+
+ul>li {
+    padding: 4px;
+}
+
+#three_columns {
+    background: #00BFFF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.content {
+    border: 1px solid red;
+    width: 800px;
+    margin-left: auto;
+    /*左右居中对齐*/
+    margin-right: auto;
+    /*左右居中对齐*/
+    display: flex;
+}
+
+.content>aside {
+    border: 1px solid blue;
+    width: 200px;
+    background: #E0FFFF;
+}
+
+.content>main {
+    border: 1px solid green;
+    height: 400px;
+    background: #B0C4DE;
+    flex-grow: 1;
+}
+
+.content>.ad {
+    border: 1px solid purple;
+    width: 100px;
+    background: #98FB98;
+}
+
+#avg_columns {
+    background: #00BFFF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.imageList {
+    /* border: 1px solid red; */
+    width: 800px;
+    margin-left: auto;
+    /*左右居中对齐*/
+    margin-right: auto;
+    /*左右居中对齐*/
+}
+
+.imageList>.x {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -6px;
+    /*负边距*/
+    margin-left: -6px;
+}
+
+.imageList>.x>.image {
+    border: 50px solid red;
+    width: 191px;
+    height: 191px;
+    background: #000;
+    margin-right: 6px;
+    margin-left: 6px;
+    margin-bottom: 10px;
+}
